@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Timers;
 
-namespace LadeSkab
+namespace LadeskabLogicLibrary
 {
     public class UsbChargerSimulator: IUsbCharger
 

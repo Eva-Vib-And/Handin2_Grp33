@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LadeSkab
+namespace LadeskabLogicLibrary
 {
     public class Door : IDoor
     {
@@ -12,13 +12,13 @@ namespace LadeSkab
         public void LockDoor()
         {
             Console.WriteLine("Døren er låst");
-            DoorStatusChanged(new ChangeDoorStatusEvent{Status = false});
+            //DoorStatusChanged(new ChangeDoorStatusEvent{Status = false});
         }
 
         public void UnlockDoor()
         {
             Console.WriteLine("Døren er åben");
-            DoorStatusChanged(new ChangeDoorStatusEvent { Status = true});
+            //DoorStatusChanged(new ChangeDoorStatusEvent { Status = true});
         }
 
         public void SetDoorStatus(bool newstatus)

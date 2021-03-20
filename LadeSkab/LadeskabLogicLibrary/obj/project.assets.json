@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "LadeskabLogicLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/LadeskabLogicLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LadeskabLogicLibrary.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "LadeskabLogicLibrary/1.0.0": {
-      "type": "project",
-      "path": "../LadeskabLogicLibrary/LadeskabLogicLibrary.csproj",
-      "msbuildProject": "../LadeskabLogicLibrary/LadeskabLogicLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "LadeskabLogicLibrary >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\eva\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkab\\LadeSkab\\LadeSkab.csproj",
-      "projectName": "LadeSkab",
-      "projectPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkab\\LadeSkab\\LadeSkab.csproj",
+      "projectUniqueName": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj",
+      "projectName": "LadeskabLogicLibrary",
+      "projectPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj",
       "packagesPath": "C:\\Users\\eva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkab\\LadeSkab\\obj\\",
+      "outputPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj": {
-              "projectPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

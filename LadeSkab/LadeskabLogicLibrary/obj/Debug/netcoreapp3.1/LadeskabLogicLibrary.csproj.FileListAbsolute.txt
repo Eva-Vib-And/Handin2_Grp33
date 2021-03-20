@@ -1,0 +1,4 @@
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeSkab\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.csprojAssemblyReference.cache
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeSkab\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.AssemblyInfoInputs.cache
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeSkab\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.AssemblyInfo.cs
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeSkab\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.csproj.CoreCompileInputs.cache

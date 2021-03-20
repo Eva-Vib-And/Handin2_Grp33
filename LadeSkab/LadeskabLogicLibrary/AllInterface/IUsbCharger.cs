@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LadeSkab
+namespace LadeskabLogicLibrary
 {
     public class CurrentEventArgs : EventArgs
     {
