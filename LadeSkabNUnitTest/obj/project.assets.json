@@ -1292,6 +1292,19 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "LadeSkabApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LadeskabLogicLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LadeSkabApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LadeSkabApp.dll": {}
+        }
+      },
       "LadeskabLogicLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -4817,6 +4830,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "LadeSkabApp/1.0.0": {
+      "type": "project",
+      "path": "../LadeSkabApp/LadeSkabApp.csproj",
+      "msbuildProject": "../LadeSkabApp/LadeSkabApp.csproj"
+    },
     "LadeskabLogicLibrary/1.0.0": {
       "type": "project",
       "path": "../LadeskabLogicLibrary/LadeskabLogicLibrary.csproj",
@@ -4825,6 +4843,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "LadeSkabApp >= 1.0.0",
       "LadeskabLogicLibrary >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NSubstitute >= 4.2.2",
@@ -4834,23 +4853,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bruger\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\eva\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruger\\source\\repos\\Handin2_Grp33\\LadeSkab\\LadeSkabNUnitTest\\LadeSkabNUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkabNUnitTest\\LadeSkabNUnitTest.csproj",
       "projectName": "LadeSkabNUnitTest",
-      "projectPath": "C:\\Users\\Bruger\\source\\repos\\Handin2_Grp33\\LadeSkab\\LadeSkabNUnitTest\\LadeSkabNUnitTest.csproj",
-      "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruger\\source\\repos\\Handin2_Grp33\\LadeSkab\\LadeSkabNUnitTest\\obj\\",
+      "projectPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkabNUnitTest\\LadeSkabNUnitTest.csproj",
+      "packagesPath": "C:\\Users\\eva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkabNUnitTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4862,9 +4877,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Bruger\\source\\repos\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj": {
-              "projectPath": "C:\\Users\\Bruger\\source\\repos\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj"
+            "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkabApp\\LadeSkabApp.csproj": {
+              "projectPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeSkabApp\\LadeSkabApp.csproj"
+            },
+            "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj": {
+              "projectPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj"
             }
           }
         }
@@ -4877,6 +4896,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -4914,7 +4934,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

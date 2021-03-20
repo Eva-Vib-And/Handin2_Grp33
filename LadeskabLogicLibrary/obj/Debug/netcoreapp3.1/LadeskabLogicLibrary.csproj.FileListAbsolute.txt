@@ -2,3 +2,12 @@ C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeSkab\LadeskabLogicLibrary\obj\De
 C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeSkab\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.AssemblyInfoInputs.cache
 C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeSkab\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.AssemblyInfo.cs
 C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeSkab\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.csproj.CoreCompileInputs.cache
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.csprojAssemblyReference.cache
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.AssemblyInfoInputs.cache
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.AssemblyInfo.cs
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.csproj.CoreCompileInputs.cache
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeskabLogicLibrary\bin\Debug\netcoreapp3.1\LadeskabLogicLibrary.deps.json
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeskabLogicLibrary\bin\Debug\netcoreapp3.1\LadeskabLogicLibrary.dll
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeskabLogicLibrary\bin\Debug\netcoreapp3.1\LadeskabLogicLibrary.pdb
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.dll
+C:\Users\eva\Documents\GitHub\Handin2_Grp33\LadeskabLogicLibrary\obj\Debug\netcoreapp3.1\LadeskabLogicLibrary.pdb

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruger\\source\\repos\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj": {}
+    "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruger\\source\\repos\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj": {
+    "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\source\\repos\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj",
         "projectName": "LadeskabLogicLibrary",
-        "projectPath": "C:\\Users\\Bruger\\source\\repos\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\source\\repos\\Handin2_Grp33\\LadeSkab\\LadeskabLogicLibrary\\obj\\",
+        "projectPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeskabLogicLibrary\\LadeskabLogicLibrary.csproj",
+        "packagesPath": "C:\\Users\\eva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eva\\Documents\\GitHub\\Handin2_Grp33\\LadeskabLogicLibrary\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -55,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

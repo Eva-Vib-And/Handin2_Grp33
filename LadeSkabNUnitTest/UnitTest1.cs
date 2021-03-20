@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using LadeSkab; 
+using LadeSkabApp; 
 
 namespace LadeSkabNUnitTest
 {
