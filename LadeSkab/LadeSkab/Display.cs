@@ -32,5 +32,10 @@ namespace LadeSkab
         {
             Console.WriteLine("Forkert RFID tag");
         }
+
+        public void ShowScanRfid()
+        {
+            Console.WriteLine("Indlæs Rfidtag");
+        }
     }
 }

@@ -6,7 +6,14 @@ namespace LadeSkab
 {
     public interface IDoor
     {
+        event EventHandler<ChangeDoorStatusEvent> DoorChangedEvent;
+        
         public void LockDoor();
         public void UnlockDoor();
+        public void SetDoorStatus();
+    }
+    public class ChangeDoorStatusEvent : EventArgs
+    {
+        public bool Status { get; set; }
     }
 }

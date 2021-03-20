@@ -8,9 +8,11 @@ namespace LadeSkab
         {
             // Assemble your system here from all the classes
             
-            IDoor door = new Door();
-            //IChargeControl charge = new ChargeControl()
 
+            IDoor door = new Door();
+            IUsbCharger usbCharger= new UsbChargerSimulator();
+            IRfidReader rfidReader= new RfidReader();
+            IChargeControl charge = new ChargeControl(usbCharger);
 
             bool finish = false;
             do
@@ -39,7 +41,8 @@ namespace LadeSkab
                         string idString = System.Console.ReadLine();
 
                         int id = Convert.ToInt32(idString);
-                        rfidReader.OnRfidRead(id);
+                        rfidReader.SetRfidTag(id);
+                        
                         break;
 
                     default:

@@ -6,9 +6,9 @@ namespace LadeSkab
 {
     public class ChargeControl : IChargeControl
     {
-        private UsbChargerSimulator chargerSimulator;
+        private IUsbCharger chargerSimulator;
 
-        public ChargeControl(UsbChargerSimulator chargerSimulator_)
+        public ChargeControl(IUsbCharger chargerSimulator_)
         {
             chargerSimulator = chargerSimulator_;
         }
