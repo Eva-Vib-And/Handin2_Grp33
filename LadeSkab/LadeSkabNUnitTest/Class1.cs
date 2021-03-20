@@ -1,10 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using NUnit.Framework;
 
 namespace LadeSkabNUnitTest
 {
-    class Class1
+    class TestChargeControl
     {
+        [SetUp]
+        public void Setup()
+        {
+
+        }
+
+        [Test]
+        public void Test1()
+        {
+            Assert.Pass();
+        }
+
     }
 }
