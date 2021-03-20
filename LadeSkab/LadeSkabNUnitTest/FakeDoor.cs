@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using LadeskabLogicLibrary;
 
-namespace LadeskabLogicLibrary
+namespace LadeSkabNUnitTest
 {
-    public class Door : IDoor
+    public class FakeDoor : IDoor
     {
         public event EventHandler<ChangeDoorStatusEvent> DoorChangedEvent;
         public bool oldStatus;
@@ -33,7 +34,7 @@ namespace LadeskabLogicLibrary
 
         protected virtual void DoorStatusChanged(ChangeDoorStatusEvent e)
         {
-            DoorChangedEvent?.Invoke(this,e);
+            DoorChangedEvent?.Invoke(this, e);
         }
     }
 }

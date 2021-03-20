@@ -11,6 +11,7 @@ namespace LadeSkab
             
 
             IDoor door = new Door();
+            IDisplay display = new Display();
             IUsbCharger usbCharger= new UsbChargerSimulator();
             IRfidReader rfidReader= new RfidReader();
             IChargeControl charge = new ChargeControl(usbCharger);

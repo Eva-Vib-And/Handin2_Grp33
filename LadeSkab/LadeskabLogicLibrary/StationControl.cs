@@ -22,7 +22,7 @@ namespace LadeskabLogicLibrary
         private IChargeControl _charger;
         private int _oldId;
         private IDoor _door;
-        private Display display;
+        private IDisplay display;
         private bool doorStatus { get; set; }
 
         private string logFile = "logfile.txt"; // Navnet på systemets log-fil

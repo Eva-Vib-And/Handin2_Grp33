@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using LadeSkab;
+using LadeskabLogicLibrary;
 using NUnit.Framework;
 
 namespace LadeSkabNUnitTest

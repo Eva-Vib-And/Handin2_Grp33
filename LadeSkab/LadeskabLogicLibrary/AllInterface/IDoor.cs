@@ -10,7 +10,7 @@ namespace LadeskabLogicLibrary
         
         public void LockDoor();
         public void UnlockDoor();
-        public void SetDoorStatus();
+        public void SetDoorStatus(bool newstatus);
     }
     public class ChangeDoorStatusEvent : EventArgs
     {

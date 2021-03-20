@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LadeskabLogicLibrary
 {
-    public class Display
+    public class Display : IDisplay
     {
 
 
