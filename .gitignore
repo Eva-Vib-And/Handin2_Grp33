@@ -338,3 +338,5 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+LadeSkab/.vs/LadeSkab/v16/.suo
+LadeSkab/LadeSkabNUnitTest/obj/Debug/netcoreapp3.1/LadeSkabNUnitTest.csprojAssemblyReference.cache
